@@ -55,3 +55,6 @@ python -m PyInstaller --noconfirm --clean --onefile --windowed main.py
 ```
 
 生成的 `main.exe` 位于 `dist` 目录。
+
+
+新添加一个更智能的keil辅助编译工具，读取你本地的keil编译器地址来帮你执行编译命令，前提是你要安装好keil，不会安装我也没招
